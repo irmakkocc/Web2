@@ -1,0 +1,17 @@
+C:\Users\Huawei\Desktop\Web2\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Huawei\Desktop\Web2\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\Huawei\Desktop\Web2\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Huawei\Desktop\Web2\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\Huawei\Desktop\Web2\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Huawei\Desktop\Web2\EntityLayer\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\Huawei\Desktop\Web2\EntityLayer\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\Huawei\Desktop\Web2\EntityLayer\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\Huawei\Desktop\Web2\EntityLayer\bin\Debug\MoralesLarios.Data.dll
+C:\Users\Huawei\Desktop\Web2\EntityLayer\bin\Debug\MoralesLarios.Data.EntityFramework.dll
+C:\Users\Huawei\Desktop\Web2\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\Huawei\Desktop\Web2\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Huawei\Desktop\Web2\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Huawei\Desktop\Web2\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Huawei\Desktop\Web2\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\Huawei\Desktop\Web2\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\Huawei\Desktop\Web2\EntityLayer\obj\Debug\EntityLayer.pdb

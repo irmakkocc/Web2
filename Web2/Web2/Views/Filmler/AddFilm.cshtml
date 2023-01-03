@@ -1,0 +1,28 @@
+﻿@model EntityLayer.Concreate.Filmler
+
+@{
+    ViewBag.Title = "AddFilm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<br />
+@using (Html.BeginForm("AddFilm", "Filmler", FormMethod.Post))
+{
+<div class="form-group">
+    @*@Html.Label("Kategori Adı")
+    @Html.TextBoxFor(x => x.Kategoriler, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Kategoriler)*@
+    <br /><br />
+    @Html.Label("Film Adı")
+    @Html.TextBoxFor(x => x.FilmAd, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.FilmAd)
+    <br /><br />
+    @Html.Label("Film Açıklaması")
+    @Html.TextBoxFor(x => x.FilmAciklama, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.FilmAciklama)
+    <button>Kaydet</button>
+</div>
+}
+

@@ -1,0 +1,25 @@
+﻿@using EntityLayer.Concreate
+@model List<Kategori>
+@{
+    ViewBag.Title = "GetCategoryList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>KategoriID</th>
+        <th>Kategori</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.KategoriID</td>
+            <td>@item.Kategoriler</td>
+        </tr>
+    }
+</table>
+<br />
+<a href="/Kategori/AddKategori">Yeni Kategori</a>
+

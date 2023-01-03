@@ -1,0 +1,100 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Dizi Film Sayfası</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="~/web/css/style.css" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="~/web/css/slider.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="~/web/js/jquery.min.js"></script>
+    <script src="~/web/js/responsiveslides.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="wrap">
+            <!--<div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>-->
+            <div class="con-right">
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="wrap">
+            <ul id="nav">
+                <li><a href="/Default/Index/" style="font-family:antique;">Ana Sayfa</a></li>
+                <li>
+                    <a class="hsubs" href="/Filmler/Filmler/" style="font-family:antique;">Filmler</a>
+                    <ul class="subs">
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section1">IMDB Top 10</a></li>
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section2">Haftanın Filmleri</a></li>
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section31">Korku</a></li>
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section32">Drama</a></li>
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section33">Gerilim</a></li>
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section34">Bağımsız</a></li>
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section35">Çocuk ve Aile</a></li>
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section36">Romantik</a></li>
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section37">Bilim Kurgu ve Fantastik</a></li>
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section38">Komedi</a></li>
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section39">Müzikal</a></li>
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section40">Aksiyon ve Macera</a></li>
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section41">Ödüllü</a></li>
+                        <li><a class="dropdown-item" href="/Default/Filmler/#section42">Belgeseller</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="hsubs" href="/Diziler/Diziler/" style="font-family:antique;">Diziler</a>
+                    <ul class="subs">
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section1">IMDB Top 10</a></li>
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section2">Haftanın Dizileri</a></li>
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section31">Korku</a></li>
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section32">Drama</a></li>
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section33">Gerilim</a></li>
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section34">Bağımsız</a></li>
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section35">Çocuk ve Aile</a></li>
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section36">Romantik</a></li>
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section37">Bilim Kurgu ve Fantastik</a></li>
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section38">Komedi</a></li>
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section39">Müzikal</a></li>
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section40">Aksiyon ve Macera</a></li>
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section41">Ödüllü</a></li>
+                        <li><a class="dropdown-item" href="/Default/Diziler/#section42">Belgeseller</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="hsubs" href="#" style="font-family:antique;">Giriş</a>
+                    <ul class="subs">
+                        <li><a href="/Giris/GirisYap/" style="font-family:antique;">Giriş Yap</a></li>
+                        <li><a href="/Giris/UyeOl/" style="font-family:antique;">Üye Ol</a></li>
+                        <li><div class="dropdown-divider"></div></li>
+                        <li><a href="/Giris/AdminGiris/" style="font-family:antique;">Admin Girişi</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class"content">
+        @RenderBody()
+    </div>
+    <div class="footer-bottom">
+        <div class="wrap">
+            <div class="copy">
+                <p>&copy; 2013 Easy-Trip. All Rights Reserved | Design by <a href="http://w3layouts.com">W3Layouts</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
